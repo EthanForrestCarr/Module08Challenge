@@ -1,6 +1,6 @@
 // Importing Vehicle and Wheel classes
-import Vehicle from './Vehicle.ts';
-import Wheel from './Wheel.ts';
+import Vehicle from './Vehicle.js';
+import Wheel from './Wheel.js';
 
 // TODO: The Motorbike class should extend the Vehicle class
 class Motorbike extends Vehicle {
@@ -46,7 +46,7 @@ class Motorbike extends Vehicle {
   }
 
   // TODO: Implement the wheelie method
-  wheelie(vehicle: Motorbike): void {
+  wheelie(): void {
     // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
     console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`)
   }

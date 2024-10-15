@@ -1,9 +1,9 @@
 // import the Vehicle, Motorbike, Car, Wheel, and AbleToTow classes/interfaces
-import Vehicle from './Vehicle.ts';
-import Motorbike from './Motorbike.ts';
-import Car from './Car.ts';
-import Wheel from './Wheel.ts';
-import AbleToTow from '../interfaces/AbleToTow.ts';
+import Vehicle from './Vehicle.js';
+import Motorbike from './Motorbike.js';
+import Car from './Car.js';
+import Wheel from './Wheel.js';
+import AbleToTow from '../interfaces/AbleToTow.js';
 
 // TODO: The Truck class should extend the Vehicle class and should implement the AbleToTow interface
 class Truck extends Vehicle implements AbleToTow {
@@ -29,7 +29,8 @@ class Truck extends Vehicle implements AbleToTow {
     year: number,
     weight: number,
     topSpeed: number,
-    wheels: Wheel[]
+    wheels: Wheel[],
+    towingCapacity: number
   ) {
     // TODO: The constructor should call the constructor of the parent class, Vehicle
     super();
@@ -41,6 +42,7 @@ class Truck extends Vehicle implements AbleToTow {
     this.year = year;
     this.weight = weight;
     this.topSpeed = topSpeed;
+    this.towingCapacity = towingCapacity
     // TODO: The constructor should check if the wheels array has 4 elements and create 4 new default Wheel objects if it does not
     if (wheels.length !== 4) {
       this.wheels = [new Wheel(), new Wheel(), new Wheel(), new Wheel()];
