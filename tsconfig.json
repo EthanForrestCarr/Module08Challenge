@@ -29,7 +29,10 @@
     "noImplicitThis": true /* Enable error reporting when 'this' is given the type 'any'. */,
     "exactOptionalPropertyTypes": true /* Interpret optional property types as written, rather than adding 'undefined'. */,
     "noImplicitReturns": true /* Enable error reporting for codepaths that do not explicitly return in a function. */,
-    "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */
+    "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */,
+
+    "allowImportingTsExtensions": true /* I think this should work */
+
   },
   "include": ["src"]
 }

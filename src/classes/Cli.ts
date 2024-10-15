@@ -1,9 +1,9 @@
 // importing classes from other files
 import inquirer from "inquirer";
-import Truck from "./Truck.js";
-import Car from "./Car.js";
-import Motorbike from "./Motorbike.js";
-import Wheel from "./Wheel.js";
+import Truck from "./Truck.ts";
+import Car from "./Car.ts";
+import Motorbike from "./Motorbike.ts";
+import Wheel from "./Wheel.ts";
 
 // define the Cli class
 class Cli {
