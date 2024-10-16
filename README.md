@@ -29,7 +29,7 @@ npm run start
 
 The command-line interface will prompt you to create or select a vehicle, and allow you to perform various actions based on the type of vehicle chosen. Trucks have unique actions like towing, and motorbikes can wheelie.
 
-[Demo Video]()
+[Demo Video](https://app.screencastify.com/v3/watch/VXNacsmsUBdTT7yqwdQB)
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
