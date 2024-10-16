@@ -3,7 +3,7 @@
 [![License Badge](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-update an existing TypeScript command-line application that builds and uses cars to include additional options for motorbikes and trucks. prompts the user to either create a new vehicle or select an existing vehicle. After going through the creation or selection process, the user is able to perform certain actions with the selected vehicle. The user is returned to the actions menu after each action until they decide to exit the application.
+Vehicle Builder is a TypeScript command-line application that allows users to create, manage, and interact with a variety of vehicles. Initially designed for cars, the application has been expanded to include motorbikes and trucks. Users can either build a new vehicle or select an existing one, and then perform specific actions such as popping a wheelie or towing another vehicle. The application is interactive, guiding users through vehicle creation, selection, and action menus until they choose to exit.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -24,12 +24,12 @@ npm install
 After installation, run the application using this command:
 
 ```bash
-node index.js
+npm run start
 ```
 
-Follow the prompts to generate your custom README file.
+The command-line interface will prompt you to create or select a vehicle, and allow you to perform various actions based on the type of vehicle chosen. Trucks have unique actions like towing, and motorbikes can wheelie.
 
-[Demo Video](https://app.screencastify.com/v3/watch/Qefbo4dHIWfaPMJY0zSX)
+[Demo Video]()
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
